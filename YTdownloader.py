@@ -12,5 +12,4 @@ req_stream_obj = get_video_in_res(youtube_obj.streams,video_res)[0]
 
 req_stream_obj.download()
 
-if(req_stream_obj):
-    print("\n video downloaded")
+
